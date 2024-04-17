@@ -1,0 +1,217 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 1476px;
+  min-height: calc(100vh - 291px);
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+.content h1 {
+  width: 1380px;
+  color: rgb(55, 58, 27);
+  font-family: Hind Vadodara;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.content .cardMenu {
+  width: 100%;
+  min-height: 713px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.content .cardMenu .options {
+  width: 948px;
+  height: 713px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25), -1px -1px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 25px 135px;
+}
+.content .cardMenu .options h2 {
+  color: rgb(55, 58, 27);
+  font-family: Hind Vadodara;
+  font-size: 18px;
+  font-weight: 600;
+}
+.content .cardMenu .options .cardInfo {
+  width: 100%;
+  height: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.content .cardMenu .options .cardInfo .card1 {
+  width: 311.39px;
+  height: 197.15px;
+  background: url("../../../assets/Desktop/ShopingMenu/cardWifi.png");
+}
+.content .cardMenu .options .cardInfo .card2 {
+  width: 275px;
+  height: 156px;
+  background: url("../../../assets/Desktop/ShopingMenu/card.png");
+}
+.content .cardMenu .options .paymentMethod {
+  width: 180px;
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .cardMenu .options form {
+  width: 677px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .cardMenu .options form h3 {
+  color: rgb(55, 58, 27);
+  font-family: Hind Vadodara;
+  font-size: 14px;
+  font-weight: 900;
+}
+.content .cardMenu .options form .line {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.content .cardMenu .options form .line .input1,
+.content .cardMenu .options form .line .input2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.content .cardMenu .options form .line .input1 {
+  width: 378px;
+  height: 70px;
+}
+.content .cardMenu .options form .line .input2 {
+  width: 113px;
+  height: 70px;
+}
+.content .cardMenu .options form .line input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(91, 93, 75);
+  border-radius: 9px;
+  outline: none;
+  font-size: 16px;
+  padding: 0 15px;
+}
+.content .cardMenu .options form .line .saveData {
+  width: 248px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .cardMenu .options form .line .saveData h4 {
+  color: rgb(55, 58, 27);
+  font-family: Hind Vadodara;
+  font-size: 14px;
+}
+.content .cardMenu .options form .line .saveData .btn {
+  width: 31px;
+  height: 15px;
+  position: relative;
+  border-radius: 8.38px;
+  background: rgb(177, 177, 171);
+}
+.content .cardMenu .options form .line .saveData .btn div {
+  position: absolute;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 8.38px;
+  background: rgb(91, 93, 75);
+}
+.content .cardMenu .options form .buttons {
+  width: 467px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-weight: 600;
+}
+.content .cardMenu .options form .buttons button,
+.content .cardMenu .options form .buttons a {
+  cursor: pointer;
+  height: 38px;
+  background-color: unset;
+  outline: none;
+  border: none;
+  border-radius: 9px;
+}
+.content .cardMenu .options form .buttons .backBtn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(55, 58, 27);
+  border: 1px solid rgb(91, 93, 75);
+  width: 148px;
+}
+.content .cardMenu .options form .buttons .buyBtn {
+  width: 287px;
+  background: rgb(91, 93, 75);
+  color: rgb(255, 255, 255);
+}
+.content .cardMenu .orderSummary {
+  width: 450px;
+  min-height: 713px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25), -1px -1px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 28px 39px 67px 56px;
+}
+.content .cardMenu .orderSummary h2 {
+  color: rgb(0, 0, 0);
+  font-family: Hind Vadodara;
+  font-size: 18px;
+  font-weight: 900;
+}
+.content .cardMenu .orderSummary section {
+  width: 100%;
+  border-bottom: 1px dashed rgba(33, 35, 17, 0.53);
+  padding: 25px 0;
+}
+.content .cardMenu .orderSummary section h3 {
+  color: rgb(0, 0, 0);
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-weight: 900;
+}
+.content .cardMenu .orderSummary section p {
+  color: rgb(29, 16, 7);
+  font-family: Hind Vadodara;
+  font-size: 14px;
+}
+.content .cardMenu .orderSummary .addreas {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 25px;
+}
+.content .cardMenu .orderSummary .addreas p {
+  margin-top: 20px;
+}
+.content .cardMenu .orderSummary .line {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=CardMenu.module.css.map */

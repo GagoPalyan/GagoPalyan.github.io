@@ -1,0 +1,21 @@
+@import url(/src/Fonts/_Fonts.scss);
+.cart {
+  min-width: 370px;
+  width: 370px;
+  height: 514px;
+  border-radius: 20px;
+  box-shadow: inset 0px -80px 47px 0px rgba(0, 0, 0, 0.59);
+  overflow: hidden;
+  margin: 0 10px;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+  padding: 20px;
+}
+.cart p {
+  color: rgb(255, 255, 255);
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  line-height: 20px;
+}/*# sourceMappingURL=Carousel.module.css.map */

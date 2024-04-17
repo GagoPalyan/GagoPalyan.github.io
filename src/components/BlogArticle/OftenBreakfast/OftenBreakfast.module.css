@@ -1,0 +1,15 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 281px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content p {
+  color: rgb(0, 0, 0);
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  text-align: center;
+}/*# sourceMappingURL=OftenBreakfast.module.css.map */

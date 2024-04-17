@@ -1,0 +1,21 @@
+@import url(/src/Fonts/_Fonts.scss);
+
+.content {
+  width: 418px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  h1 {
+    color: #787638;
+    font-family: Quattrocento;
+    font-size: 20px;
+  }
+  p {
+    color: rgb(26, 11, 1);
+    font-family: Hind Vadodara;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

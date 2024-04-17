@@ -1,0 +1,58 @@
+.content {
+  width: 100%;
+  height: 484px;
+  background: url("../../../assets/Desktop/Home/AboutHealthyLife/Rectangle 221.png") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 0 calc(50% - 727px);
+  align-items: start;
+  justify-content: space-evenly;
+  position: relative;
+  isolation: isolate;
+}
+.content::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(54, 53, 35, 0.67);
+  opacity: 0.73;
+  inset: 0;
+}
+.content h1 {
+  width: 474px;
+  text-align: left;
+  color: #f3f3f3;
+  font-family: Quattrocento;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  text-transform: capitalize;
+}
+.content p {
+  display: flex;
+  width: 664px;
+  height: 81px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #f3f3f3;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.content a {
+  color: #fff;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  border: none;
+  background-color: unset;
+}/*# sourceMappingURL=AboutHealthyLife.module.css.map */

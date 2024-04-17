@@ -1,0 +1,17 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 100%;
+  height: 100vh;
+  padding: calc(50vh - 102px) 0 70px 0;
+  background: url("../../../assets/Mobile/Home/Rectangle 313.png") top right no-repeat, url("../../../assets/Mobile/Home/Rectangle 3.png") bottom left no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.content p {
+  color: rgb(113, 111, 35);
+  font-family: Hind Vadodara;
+  font-size: 14px;
+  font-weight: 900;
+}/*# sourceMappingURL=SwipeUpToHealyLife.module.css.map */

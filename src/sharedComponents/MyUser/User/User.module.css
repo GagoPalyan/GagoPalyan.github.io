@@ -1,0 +1,61 @@
+@import url(/src/Fonts/_Fonts.scss);
+.popup {
+  width: 585px;
+  height: 457px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 60px;
+}
+.popup h1 {
+  color: rgb(91, 93, 75);
+  font-family: Hind Vadodara;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 30px;
+}
+.popup .info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.popup .info ul {
+  width: 100px;
+  height: auto;
+  list-style: none;
+}
+.popup .info ul li {
+  height: 33px;
+  color: #716f23;
+  font-family: Qwigley;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.popup .info .myInfo {
+  width: 380px;
+}
+.popup .info .myInfo li {
+  height: 33px;
+  color: #c4813b;
+  font-family: Quattrocento;
+}
+.popup .goBack {
+  border: none;
+  background-color: unset;
+  width: 100px;
+  height: 25px;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 16px;
+  color: black;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.popup .goBack svg {
+  margin-top: 3px;
+}/*# sourceMappingURL=User.module.css.map */

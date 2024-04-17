@@ -1,0 +1,106 @@
+@import url(/src/Fonts/_Fonts.scss);
+
+.content {
+  width: 1490px;
+  height: 519px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 766px;
+    height: 519px;
+  }
+  .all {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    color: #46441e;
+    font-family: "Hind Vadodara";
+    h3,
+    h5 {
+      font-family: Quattrocento;
+      font-weight: 100;
+    }
+    h5 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    .stars {
+      width: 170px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        margin-left: 10px;
+        font-size: 12px;
+      }
+    }
+    h2 {
+      font-style: 24px;
+      font-family: sans-serif;
+      font-weight: 200;
+    }
+    ul {
+      list-style: none;
+      width: 360px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+    }
+    p {
+      font-size: 16px;
+    }
+    li {
+      font-size: 15px;
+      display: flex;
+      align-items: flex-start;
+      svg {
+        margin-right: 15px;
+      }
+    }
+    .productInfo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        font-weight: 900;
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+    .Add {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        border-radius: 15px;
+        cursor: pointer;
+        outline: none;
+        font-size: 20px;
+        height: 61px;
+      }
+      .addFav {
+        border: 1.69px solid #5b5d4b;
+        width: 239px;
+        background-color: unset;
+        color: #5b5d4b;
+      }
+      .addCart {
+        width: 349px;
+        background: #5b5d4b;
+        color: white;
+      }
+    }
+  }
+}

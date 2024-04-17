@@ -1,0 +1,25 @@
+@import url("/src/Fonts/_Fonts.scss");
+
+.cart {
+  width: 32%;
+  height: 260px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0px -60px 32.9px 0px rgba(18, 17, 17, 0.64);
+  padding-bottom: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  h2 {
+    color: rgb(255, 255, 255);
+    font-family: Quattrocento;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cart {
+    width: 49%;
+  }
+}

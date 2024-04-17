@@ -1,0 +1,18 @@
+.qnt {
+  border: 1px solid #1e1e1e;
+  border-radius: 9px;
+  width: 77px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  button {
+    border: none;
+    background-color: unset;
+    outline: none;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 14px;
+  }
+}

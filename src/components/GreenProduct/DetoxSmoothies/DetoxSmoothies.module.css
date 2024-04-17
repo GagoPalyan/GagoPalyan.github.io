@@ -1,0 +1,80 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.content .list {
+  width: 1390px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .list h1 {
+  width: 100%;
+  height: 350px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Hind Vadodara";
+}
+.content .filter {
+  width: 1461px;
+  height: 59px;
+  border: 1px solid #cbccbe;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.content .filter button {
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+}
+.content .filter .search {
+  width: 299px;
+  height: 30px;
+  background-color: aqua;
+  position: relative;
+}
+.content .filter .search input {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+.content .filter .search svg {
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+  }
+  .content .list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=DetoxSmoothies.module.css.map */

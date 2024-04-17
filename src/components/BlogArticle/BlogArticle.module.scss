@@ -1,0 +1,141 @@
+@import url(/src/Fonts/_Fonts.scss);
+
+.content {
+  width: 100%;
+  min-height: calc(100vh - 291px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  .textContent {
+    width: 1462px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    .background {
+      width: 1462px;
+      height: 514px;
+    }
+    .textInfo {
+      width: 1162px;
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .leftSide {
+        width: 588px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-left: 50px;
+        h6 {
+          color: rgb(0, 0, 0);
+          font-family: Hind Vadodara;
+          font-size: 12px;
+          font-weight: 300;
+          margin-bottom: 27px;
+        }
+        h3 {
+          color: rgb(34, 34, 34);
+          font-family: Hind Vadodara;
+          font-size: 20px;
+          padding-bottom: 25px;
+          border-bottom: 1px solid rgb(244, 151, 16);
+        }
+        h1 {
+          color: rgb(0, 0, 0);
+          font-family: Quattrocento;
+          font-size: 20px;
+          font-weight: 700;
+          margin: 20px 0;
+        }
+        p {
+          color: rgb(34, 34, 34);
+          font-family: Hind Vadodara;
+          font-size: 16px;
+          margin-bottom: 10px;
+          line-height: 30px;
+        }
+        .imgText {
+          margin: 25px 0;
+          width: 678px;
+          height: auto;
+          margin-left: -50px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            width: 205px;
+            height: 245px;
+          }
+          p {
+            width: 393px;
+          }
+        }
+        a {
+          color: rgb(107, 105, 38);
+          font-family: Hind Vadodara;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        h2 {
+          margin-top: 100px;
+          color: rgb(54, 53, 16);
+          font-family: Hind Vadodara;
+          font-size: 22px;
+        }
+        .signUp {
+          margin-top: 15px;
+          width: 321px;
+          height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          input {
+            width: 215px;
+            height: 25px;
+            outline: none;
+            background-color: unset;
+            border: none;
+            border-bottom: 1px solid rgb(0, 0, 0);
+          }
+          button {
+            color: rgb(255, 255, 255);
+            font-family: Inter;
+            font-size: 13px;
+            outline: none;
+            border: none;
+            width: 97px;
+            height: 25px;
+            border-radius: 8px;
+            background: rgb(91, 93, 75);
+          }
+        }
+      }
+      .rigthSide {
+        width: 281px;
+        height: 1580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+    }
+  }
+  .YouCanRead {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background: rgba(203, 204, 190, 0.67);
+    .imgSection {
+      width: 1720px;
+    }
+  }
+}

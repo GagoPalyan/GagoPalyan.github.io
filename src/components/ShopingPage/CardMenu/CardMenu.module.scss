@@ -1,0 +1,221 @@
+@import url(/src/Fonts/_Fonts.scss);
+
+.content {
+  width: 1476px;
+  min-height: calc(100vh - 291px);
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  h1 {
+    width: 1380px;
+    color: rgb(55, 58, 27);
+    font-family: Hind Vadodara;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .cardMenu {
+    width: 100%;
+    min-height: 713px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .options {
+      width: 948px;
+      height: 713px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25),
+        -1px -1px 10px 0px rgba(0, 0, 0, 0.25);
+      background: rgb(255, 255, 255);
+      padding: 25px 135px;
+      h2 {
+        color: rgb(55, 58, 27);
+        font-family: Hind Vadodara;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .cardInfo {
+        width: 100%;
+        height: 198px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        .card1 {
+          width: 311.39px;
+          height: 197.15px;
+          background: url("../../../assets/Desktop/ShopingMenu/cardWifi.png");
+        }
+        .card2 {
+          width: 275px;
+          height: 156px;
+          background: url("../../../assets/Desktop/ShopingMenu/card.png");
+        }
+      }
+      .paymentMethod {
+        width: 180px;
+        height: 25px;
+        margin-top: 25px;
+        margin-bottom: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      form {
+        width: 677px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        h3 {
+          color: rgb(55, 58, 27);
+          font-family: Hind Vadodara;
+          font-size: 14px;
+          font-weight: 900;
+        }
+        .line {
+          width: 100%;
+          height: 70px;
+          display: flex;
+          align-items: end;
+          justify-content: space-between;
+          .input1,
+          .input2 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+          }
+          .input1 {
+            width: 378px;
+            height: 70px;
+          }
+          .input2 {
+            width: 113px;
+            height: 70px;
+          }
+          input {
+            width: 100%;
+            height: 40px;
+            box-sizing: border-box;
+            border: 1px solid rgb(91, 93, 75);
+            border-radius: 9px;
+            outline: none;
+            font-size: 16px;
+            padding: 0 15px;
+          }
+          .saveData {
+            width: 248px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h4 {
+              color: rgb(55, 58, 27);
+              font-family: Hind Vadodara;
+              font-size: 14px;
+            }
+            .btn {
+              width: 31px;
+              height: 15px;
+              position: relative;
+
+              border-radius: 8.38px;
+              background: rgb(177, 177, 171);
+              div {
+                position: absolute;
+                top: 0;
+                width: 15px;
+                height: 15px;
+                border-radius: 8.38px;
+                background: rgb(91, 93, 75);
+              }
+            }
+          }
+        }
+        .buttons {
+          width: 467px;
+          height: 38px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: Hind Vadodara;
+          font-size: 16px;
+          font-weight: 600;
+          button,
+          a {
+            cursor: pointer;
+            height: 38px;
+            background-color: unset;
+            outline: none;
+            border: none;
+            border-radius: 9px;
+          }
+          .backBtn {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(55, 58, 27);
+            border: 1px solid rgb(91, 93, 75);
+            width: 148px;
+          }
+          .buyBtn {
+            width: 287px;
+            background: rgb(91, 93, 75);
+            color: rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+    .orderSummary {
+      width: 450px;
+      min-height: 713px;
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25),
+        -1px -1px 10px 0px rgba(0, 0, 0, 0.25);
+      background: rgb(255, 255, 255);
+      padding: 28px 39px 67px 56px;
+      h2 {
+        color: rgb(0, 0, 0);
+        font-family: Hind Vadodara;
+        font-size: 18px;
+        font-weight: 900;
+      }
+      section {
+        width: 100%;
+        border-bottom: 1px dashed rgba(33, 35, 17, 0.53);
+        padding: 25px 0;
+        h3 {
+          color: rgb(0, 0, 0);
+          font-family: Hind Vadodara;
+          font-size: 16px;
+          font-weight: 900;
+        }
+        p {
+          color: rgb(29, 16, 7);
+          font-family: Hind Vadodara;
+          font-size: 14px;
+        }
+      }
+      .addreas {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 25px;
+        p {
+          margin-top: 20px;
+        }
+      }
+      .line {
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}

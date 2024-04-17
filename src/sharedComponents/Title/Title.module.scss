@@ -1,0 +1,40 @@
+@import url("/src/Fonts/_Fonts.scss");
+
+.title {
+  width: 100%;
+  height: 222px;
+  padding: 50px 0;
+  text-align: center;
+  .caption {
+    color: #c4813b;
+    font-family: Qwigley;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .text {
+    color: #716f23;
+    font-family: Quattrocento;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    .caption {
+      font-size: 38.59px;
+      line-height: 48px;
+    }
+    .text {
+      font-size: 30.15px;
+      font-weight: 400;
+    }
+  }
+}

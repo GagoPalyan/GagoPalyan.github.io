@@ -1,0 +1,13 @@
+.content {
+  width: 100%;
+  height: auto;
+  padding: 50px 10px;
+  .cartList {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

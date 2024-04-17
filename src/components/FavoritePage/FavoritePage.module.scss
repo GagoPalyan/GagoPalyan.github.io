@@ -1,0 +1,47 @@
+.content {
+  width: 1462px;
+  min-height: calc(100vh - 291px);
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  .list {
+    width: 1390px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    h1 {
+      width: 100%;
+      height: 350px;
+      font-weight: 300;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-family: "Hind Vadodara";
+    }
+  }
+}
+.empty {
+  width: 100%;
+  min-height: calc(100vh - 291px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+    color: rgb(91, 93, 75);
+    background-color: unset;
+    border: 1.686px solid rgb(91, 93, 75);
+    border-radius: 40px;
+  }
+}

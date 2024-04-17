@@ -1,0 +1,131 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-family: Inter;
+}
+.content h4 {
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.content .cartList {
+  width: 911px;
+}
+.content .cartList .category {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.content .cartList .category :nth-child(1) {
+  margin-left: 88px;
+}
+.content .cartList .category :nth-child(2) {
+  margin-left: 311px;
+}
+.content .cartList .category :nth-child(3) {
+  margin-left: 120px;
+}
+.content .cartList .category :nth-child(4) {
+  margin-left: 108px;
+}
+.content .orderSummary {
+  width: 450px;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.content .orderSummary .orderSummaryDiv {
+  border-radius: 10px;
+  width: 450px;
+  height: 570px;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25), -1px -1px 10px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  padding: 20px 40px;
+}
+.content .orderSummary .orderSummaryDiv h3 {
+  font-size: 12px;
+  margin-bottom: 63px;
+}
+.content .orderSummary .orderSummaryDiv .price {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  border-bottom: 1px dotted #212311;
+  padding-bottom: 34px;
+}
+.content .orderSummary .orderSummaryDiv .price .totalLine h2 {
+  font-size: 16px;
+  font-weight: 100;
+}
+.content .orderSummary .orderSummaryDiv .total,
+.content .orderSummary .orderSummaryDiv .totalLine {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .orderSummary .orderSummaryDiv .total h1,
+.content .orderSummary .orderSummaryDiv .totalLine h1 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.content .orderSummary .orderSummaryDiv .promo {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .orderSummary .orderSummaryDiv .promo input {
+  border: none;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(91, 93, 75, 0.8);
+  width: 254px;
+  height: 25px;
+  outline: none;
+  color: #5b5d4b;
+}
+.content .orderSummary .orderSummaryDiv .promo button {
+  border: 1px solid #5b5d4b;
+  border-radius: 9px;
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+  outline: none;
+  background-color: unset;
+  cursor: pointer;
+}
+.content .orderSummary .orderSummaryDiv .buyNow,
+.content .orderSummary .orderSummaryDiv .ApplePay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hind Vadodara";
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  background-color: unset;
+  border-radius: 15px;
+  width: 361px;
+  height: 61px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  border: 1.69px solid #5b5d4b;
+  cursor: pointer;
+}
+.content .orderSummary .orderSummaryDiv .buyNow {
+  margin-top: 43px;
+  background: #5b5d4b;
+}/*# sourceMappingURL=ShopingCart.module.css.map */

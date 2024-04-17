@@ -1,0 +1,13 @@
+.bar {
+  width: 105px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  button {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+  }
+}

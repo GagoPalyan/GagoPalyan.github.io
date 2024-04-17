@@ -1,0 +1,31 @@
+.Footer {
+  width: 100%;
+  height: 192px;
+  padding-top: 44px;
+  padding-bottom: 22px;
+  background: #5b5d4b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Footer .footerContent {
+  width: 1461px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Footer .footerContent a {
+  text-decoration: none;
+}
+.Footer .Copyright {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Hind Vadodara;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.44px;
+}/*# sourceMappingURL=Footer.module.css.map */

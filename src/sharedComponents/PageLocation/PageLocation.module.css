@@ -1,0 +1,20 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 1670px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.content a,
+.content p {
+  color: #222413;
+  font-family: "Hind Vadodara";
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 900;
+}
+.content svg {
+  margin: 0 15px;
+  margin-top: 2px;
+}/*# sourceMappingURL=PageLocation.module.css.map */

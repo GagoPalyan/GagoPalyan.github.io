@@ -1,0 +1,37 @@
+@import url(/src/Fonts/_Fonts.scss);
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  h1,
+  h2,
+  h3 {
+    color: rgb(79, 49, 1);
+    font-family: Quattrocento;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  a {
+    width: 205px;
+    height: 39.97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 15px;
+    background: rgb(91, 93, 75);
+    color: rgb(255, 255, 255);
+    font-family: Hind Vadodara;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}

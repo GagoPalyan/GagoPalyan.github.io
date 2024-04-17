@@ -1,0 +1,40 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 1670px;
+  padding: 50px 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content img {
+  width: 846px;
+  height: 592px;
+}
+.content .textContent {
+  width: 597px;
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.content .textContent .titleLeft,
+.content .textContent .titleCenter {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: -50px 0;
+}
+.content .textContent .titleCenter {
+  width: 100%;
+}
+.content .textContent p {
+  width: 589px;
+  color: #222;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}/*# sourceMappingURL=ImgContent.module.css.map */

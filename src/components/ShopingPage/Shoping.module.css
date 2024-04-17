@@ -1,0 +1,30 @@
+.content {
+  width: 1462px;
+  min-height: calc(100vh - 291px);
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.empty {
+  width: 100%;
+  min-height: calc(100vh - 291px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.empty a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 40px;
+  color: rgb(91, 93, 75);
+  background-color: unset;
+  border: 1.686px solid rgb(91, 93, 75);
+  border-radius: 40px;
+}/*# sourceMappingURL=Shoping.module.css.map */

@@ -1,0 +1,17 @@
+export const HOME_PAGE = "/";
+export const ABOUT_US_PAGE = "/about-us";
+export const EXPERT_ADVICE_PAGE = "/expert-advice";
+export const GREEN_PRODUCT_PAGE = "/green-product";
+export const PRODUCT_PAGE = "/green-product/:id";
+export const HELTHY_DIET_PAGE = "/helthy-diet";
+export const CONTACT_US_PAGE = "/contact-us";
+export const DIABETS_PAGE = "/diabets";
+export const FAQ_PAGE = "/faq";
+export const SING_IN_PAGE = "/sing-in";
+export const SHOPING_PAGE = "/shoping-page";
+export const DASHBOARD_PAGE = "/dashboard";
+export const GREEN_SHOP_PAGE = "/green-shop";
+export const BLOG_PAGE = "/blog";
+export const PAYMENT_INFO = "/payment-information";
+export const FAVORITE_PAGE = "/favorite-page";
+export const ERROR404_PAGE = "/*";
