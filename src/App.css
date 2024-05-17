@@ -12,3 +12,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+button {
+  color: black;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

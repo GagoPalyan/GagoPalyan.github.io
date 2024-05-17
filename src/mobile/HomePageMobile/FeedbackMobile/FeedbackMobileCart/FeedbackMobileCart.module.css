@@ -34,7 +34,7 @@
   text-align: center;
 }
 .content .buttons {
-  width: 50px;
+  width: 90px;
   height: auto;
   margin-top: 40px;
   display: flex;
@@ -42,8 +42,8 @@
   justify-content: space-between;
 }
 .content .buttons button {
-  width: 9px;
-  height: 9px;
+  width: 15px;
+  height: 15px;
   background: rgb(203, 204, 190);
   border-radius: 50%;
   border: none;
