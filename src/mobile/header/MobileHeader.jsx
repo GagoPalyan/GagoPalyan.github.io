@@ -76,8 +76,6 @@ function MobileHeader() {
           viewBox="0 0 20 15"
           fill="none"
         >
-          <desc>Created with Pixso.</desc>
-          <defs />
           <path
             d="M1 1L19 1"
             stroke="#5B5D4B"

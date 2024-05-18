@@ -58,4 +58,12 @@
 }
 .popup .goBack svg {
   margin-top: 3px;
+}
+
+@media screen and (max-width: 992px) {
+  .popup {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 5%;
+  }
 }/*# sourceMappingURL=User.module.css.map */

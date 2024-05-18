@@ -1,4 +1,3 @@
-import { useState } from "react";
 import style from "./Quantity.module.css";
 
 function Quantity({ qnt, setQnt }) {

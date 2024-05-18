@@ -6,6 +6,8 @@ import { selectCart } from "../../features/products/productsSlice";
 import { NavLink } from "react-router-dom";
 import { GREEN_PRODUCT_PAGE } from "../../utils/URL";
 import Title from "../../sharedComponents/Title/Title";
+import Media from "react-media";
+import ShopingPageMobile from "../../mobile/ShopingPageMobile/ShopingPageMobile";
 
 function Shoping() {
   const cart = useSelector(selectCart);
@@ -13,10 +15,18 @@ function Shoping() {
   return (
     <>
       {cart.length ? (
-        <main className={style.content}>
-          <ShopingTitle type="cart" />
-          <ShopingCart />
-        </main>
+        <Media query={"(max-width: 992px)"}>
+          {(matchers) => {
+            return !matchers ? (
+              <main className={style.content}>
+                <ShopingTitle type="cart" />
+                <ShopingCart />
+              </main>
+            ) : (
+              <ShopingPageMobile />
+            );
+          }}
+        </Media>
       ) : (
         <main className={style.empty}>
           <Title caption="Basket" text="The Cart Is Empty" />

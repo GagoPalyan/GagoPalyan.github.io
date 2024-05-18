@@ -214,4 +214,81 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    width: 100%;
+    min-height: calc(100vh - 291px);
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .content h1 {
+    width: 90%;
+    margin-top: 80px;
+  }
+  .content .cardMenu {
+    width: 100%;
+    min-height: 713px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .content .cardMenu .options {
+    width: 450px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .content .cardMenu .options .cardInfo {
+    width: 100%;
+    justify-content: center;
+  }
+  .content .cardMenu .options .cardInfo .card2 {
+    display: none;
+  }
+  .content .cardMenu .options .paymentMethod {
+    width: 180px;
+    height: 25px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content .cardMenu .options form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content .cardMenu .options form .line {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .content .cardMenu .options form .line .input1 {
+    width: 100%;
+  }
+  .content .cardMenu .options form .line .input2 {
+    width: 203px;
+  }
+  .content .cardMenu .options form .buttons {
+    width: 100%;
+  }
+  .content .cardMenu .options form .buttons .buyBtn {
+    width: 148px;
+  }
+  .content .cardMenu .orderSummary {
+    margin-bottom: 25px;
+  }
 }/*# sourceMappingURL=CardMenu.module.css.map */

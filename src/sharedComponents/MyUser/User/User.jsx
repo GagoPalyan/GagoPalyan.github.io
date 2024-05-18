@@ -32,13 +32,7 @@ function User({ user, setPopup }) {
         </ul>
       </div>
       <button className={style.goBack} onClick={() => setPopup(false)}>
-        <svg
-          width="10"
-          height="12"
-          viewBox="0 0 10 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+        <svg width="10" height="12" viewBox="0 0 10 12" fill="none">
           <path
             d="M8.47316 1.00162L1.29472 5.91975"
             stroke="#2E2A2A"

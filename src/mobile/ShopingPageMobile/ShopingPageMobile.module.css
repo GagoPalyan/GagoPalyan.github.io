@@ -1,0 +1,39 @@
+@import url(/src/Fonts/_Fonts.scss);
+.content {
+  width: 100%;
+  min-height: calc(100vh - 65px);
+  padding: 80px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.content h3,
+.content h2 {
+  color: rgb(55, 58, 27);
+  font-family: Hind Vadodara;
+  line-height: 36px;
+}
+.content h3 {
+  font-weight: 900;
+  font-size: 24px;
+}
+.content h2 {
+  font-weight: 100;
+  font-size: 18px;
+}
+.content .buyNow {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 9.71px;
+  background: rgb(91, 93, 75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}/*# sourceMappingURL=ShopingPageMobile.module.css.map */

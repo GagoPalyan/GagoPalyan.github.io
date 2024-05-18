@@ -10,6 +10,8 @@ import Home from "../components/HomePage/Home";
 import ProductPage from "../components/ProductPage/ProductPage";
 import CardMenu from "../components/ShopingPage/CardMenu/CardMenu";
 import Shoping from "../components/ShopingPage/Shoping";
+import MyUserMobile from "../mobile/MyUserMobile/MyUserMobile";
+import SignUpMobile from "../mobile/MyUserMobile/SignUpMobile/SignUpMobile";
 
 import {
   ABOUT_US_PAGE,
@@ -24,6 +26,7 @@ import {
   PAYMENT_INFO,
   PRODUCT_PAGE,
   SHOPING_PAGE,
+  SING_IN_PAGE,
 } from "./URL";
 
 export const routes = [
