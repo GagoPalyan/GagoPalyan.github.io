@@ -45,4 +45,13 @@
   background-color: unset;
   border: 1.686px solid rgb(91, 93, 75);
   border-radius: 40px;
-}/*# sourceMappingURL=FavoritePage.module.css.map */
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    width: 100%;
+  }
+  .content .list {
+    width: 100%;
+  }
+/*# sourceMappingURL=FavoritePage.module.css.map */
