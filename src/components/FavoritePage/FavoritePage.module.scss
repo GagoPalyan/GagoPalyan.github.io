@@ -45,3 +45,12 @@
     border-radius: 40px;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .content {
+    width: 95%;
+    .list {
+      width: 100%;
+    }
+  }
+}

@@ -24,10 +24,7 @@ function Header() {
             </div>
           </header>
         ) : (
-          <>
-            <MobileHeader />
-            <NavBar />
-          </>
+          <NavBar />
         );
       }}
     </Media>

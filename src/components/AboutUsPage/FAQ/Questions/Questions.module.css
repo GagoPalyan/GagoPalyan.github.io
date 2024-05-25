@@ -1,5 +1,7 @@
+@import url("/src/Fonts/_Fonts.scss");
 .questions {
   width: 895px;
+  cursor: pointer;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -7,7 +9,7 @@
   justify-content: start;
   padding: 20px 40px;
   margin: 20px;
-  background-color: #F2F2F0;
+  background-color: #f2f2f0;
   border: 1px solid rgba(113, 110, 35, 0.6509803922);
   border-radius: 10px;
 }
@@ -16,7 +18,7 @@
   font-family: "Hind Vadodara";
   font-size: 18px;
   font-weight: 900;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
 }
 .questions p {
   margin-top: 15px;
@@ -25,5 +27,11 @@
   font-family: "Hind Vadodara";
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .questions {
+    width: 95%;
+  }
 }/*# sourceMappingURL=Questions.module.css.map */

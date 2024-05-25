@@ -9,9 +9,16 @@
 }
 .content h3 {
   margin-top: -50px;
+  text-align: center;
   color: black;
   font-family: "Hind Vadodara";
   font-size: 16px;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
+}
+
+@media screen and (max-width: 992px) {
+  .content h3 {
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=FAQ.module.css.map */
