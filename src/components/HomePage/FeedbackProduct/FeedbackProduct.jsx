@@ -3,6 +3,8 @@ import Star from "../../../sharedComponents/Star/Star";
 import Title from "../../../sharedComponents/Title/Title";
 import style from "./FeedbackProduct.module.css";
 import FeedbackProductList from "./FeedbackProductList/FeedbackProductList";
+import Media from "react-media";
+import FeedbackMobile from "../../../mobile/HomePageMobile/FeedbackMobile/FeedbackMobile";
 
 function FeedbackProduct() {
   const [active, setActive] = useState(2);
@@ -18,60 +20,71 @@ function FeedbackProduct() {
     );
     setData(dataLocal);
   };
+
   return (
-    <section className={style.content}>
-      <Title caption="reviwe" text="Customer feedback on the product" />
-      <div className={style.carusel}>
-        {data.map((item) => {
-          return (
-            <div
-              key={item.id}
-              className={active == item.id ? style.active : style.cart}
-            >
-              <div className={style.stars}>
-                {item.stars.map((el, index) => {
-                  return el ? (
-                    <Star
-                      key={index}
-                      starFill={true}
-                      star={
-                        active == item.id
-                          ? { width: "17", height: "14" }
-                          : { width: "11", height: "10" }
-                      }
-                    />
-                  ) : (
-                    <Star
-                      key={index}
-                      starFill={false}
-                      star={
-                        item.active
-                          ? { width: "17", height: "14" }
-                          : { width: "11", height: "10" }
-                      }
-                    />
-                  );
-                })}
-              </div>
-              <h1>{item.name}</h1>
-              <p>{item.text}</p>
+    <Media query={"(max-width: 1860px"}>
+      {(matchers) => {
+        return !matchers ? (
+          <section className={style.content}>
+            <Title caption="reviwe" text="Customer feedback on the product" />
+            <div className={style.carusel}>
+              {data.map((item) => {
+                return (
+                  <div
+                    key={item.id}
+                    className={active == item.id ? style.active : style.cart}
+                  >
+                    <div className={style.stars}>
+                      {item.stars.map((el, index) => {
+                        return el ? (
+                          <Star
+                            key={index}
+                            starFill={true}
+                            star={
+                              active == item.id
+                                ? { width: "17", height: "14" }
+                                : { width: "11", height: "10" }
+                            }
+                          />
+                        ) : (
+                          <Star
+                            key={index}
+                            starFill={false}
+                            star={
+                              item.active
+                                ? { width: "17", height: "14" }
+                                : { width: "11", height: "10" }
+                            }
+                          />
+                        );
+                      })}
+                    </div>
+                    <h1>{item.name}</h1>
+                    <p>{item.text}</p>
+                  </div>
+                );
+              })}
             </div>
-          );
-        })}
-      </div>
-      <div className={style.buttons}>
-        {data.map((item, index) => {
-          return (
-            <button
-              key={index}
-              style={active == item.id ? { backgroundColor: "#afb293" } : null}
-              className={style.Btn}
-              onClick={() => change(item)}
-            ></button>
-          );
-        })}
-      </div>
-    </section>
+            <div className={style.buttons}>
+              {data.map((item, index) => {
+                return (
+                  <button
+                    key={index}
+                    style={
+                      active == item.id ? { backgroundColor: "#afb293" } : null
+                    }
+                    className={style.Btn}
+                    onClick={() => change(item)}
+                  ></button>
+                );
+              })}
+            </div>
+          </section>
+        ) : (
+          <FeedbackMobile />
+        );
+      }}
+    </Media>
   );
 }
 

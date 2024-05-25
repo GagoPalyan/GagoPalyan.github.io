@@ -16,6 +16,17 @@
   align-items: center;
   justify-content: space-between;
 }
+.Footer .footerContent .logo {
+  width: 129px;
+  margin: 0 193px 0 201px;
+}
+.Footer .footerContent .joinUs {
+  width: 250px;
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .Footer .footerContent a {
   text-decoration: none;
 }
@@ -28,4 +39,16 @@
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 1.44px;
+}
+
+@media screen and (max-width: 1500px) {
+  .Footer .footerContent {
+    width: 950px;
+  }
+  .Footer .footerContent .logo {
+    margin: 0 50px;
+  }
+  .Footer .footerContent .joinUs {
+    margin-left: 50px;
+  }
 }/*# sourceMappingURL=Footer.module.css.map */

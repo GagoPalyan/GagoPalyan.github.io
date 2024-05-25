@@ -11,8 +11,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .leftNav {
+      width: 471px;
+    }
+    .rightNav {
+      width: 380px;
+    }
     a {
       text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .header .headerContent {
+    width: 950px;
+    .leftNav {
+      width: 300px;
+    }
+    .rightNav {
+      width: 220px;
     }
   }
 }

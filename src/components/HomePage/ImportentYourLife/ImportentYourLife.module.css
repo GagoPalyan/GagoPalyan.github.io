@@ -14,4 +14,14 @@
   align-items: start;
   justify-content: space-between;
   padding-bottom: 94px;
+}
+
+@media screen and (max-width: 1860px) {
+  .content .cartDiv {
+    padding: 0;
+    width: 950px;
+    height: 920px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }/*# sourceMappingURL=ImportentYourLife.module.css.map */

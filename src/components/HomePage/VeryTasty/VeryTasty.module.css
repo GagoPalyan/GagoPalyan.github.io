@@ -13,4 +13,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1860px) {
+  .content {
+    width: 950px;
+    padding: 0;
+  }
+  .content .cartDiv {
+    height: 900px;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=VeryTasty.module.css.map */

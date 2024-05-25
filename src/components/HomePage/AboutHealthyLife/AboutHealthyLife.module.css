@@ -55,4 +55,10 @@
   text-transform: capitalize;
   border: none;
   background-color: unset;
+}
+
+@media screen and (max-width: 1860px) {
+  .content {
+    padding: 0 calc(50% - 470px);
+  }
 }/*# sourceMappingURL=AboutHealthyLife.module.css.map */

@@ -14,3 +14,12 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 1500px) {
+  .nav {
+    width: 100%;
+    .pages {
+      font-size: 14px;
+    }
+  }
+}

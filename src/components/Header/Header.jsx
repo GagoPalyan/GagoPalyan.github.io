@@ -3,7 +3,6 @@ import Logo from "../../sharedComponents/Logo/Logo";
 import Navigation from "../Navigation/Navigation";
 import IconPages from "./IconPages/IconPages";
 import Media from "react-media";
-import MobileHeader from "../../mobile/header/MobileHeader";
 import NavBar from "../../mobile/navBar/NavBar";
 
 function Header() {
@@ -13,11 +12,11 @@ function Header() {
         return !matchers ? (
           <header className={style.header}>
             <div className={style.headerContent}>
-              <div style={{ width: "471px" }}>
+              <div className={style.leftNav}>
                 <Navigation menuList={[2, 3, 4]} />
               </div>
               <Logo color="#D6822A" />
-              <div style={{ width: "380px" }}>
+              <div className={style.rightNav}>
                 <Navigation menuList={[6, 9, 7]} />
               </div>
               <IconPages />

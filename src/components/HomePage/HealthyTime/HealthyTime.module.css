@@ -55,4 +55,14 @@
   background-color: unset;
   border: 1.686px solid #fff;
   border-radius: 40px;
+}
+
+@media screen and (max-width: 1860px) {
+  .content .image {
+    width: 58%;
+  }
+  .content .text {
+    width: 40%;
+    padding-left: 20px;
+  }
 }/*# sourceMappingURL=HealthyTime.module.css.map */

@@ -13,6 +13,24 @@
   align-items: center;
   justify-content: space-between;
 }
+.header .headerContent .leftNav {
+  width: 471px;
+}
+.header .headerContent .rightNav {
+  width: 380px;
+}
 .header .headerContent a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .header .headerContent {
+    width: 950px;
+  }
+  .header .headerContent .leftNav {
+    width: 300px;
+  }
+  .header .headerContent .rightNav {
+    width: 220px;
+  }
 }/*# sourceMappingURL=Header.module.css.map */

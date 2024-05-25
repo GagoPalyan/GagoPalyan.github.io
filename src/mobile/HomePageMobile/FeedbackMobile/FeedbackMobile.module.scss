@@ -4,3 +4,10 @@
   padding: 25px;
   margin-bottom: 50px;
 }
+
+@media screen and (min-width: 992px) {
+  .content {
+    width: 952px;
+    padding: 0;
+  }
+}

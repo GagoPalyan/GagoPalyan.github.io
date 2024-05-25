@@ -6,8 +6,8 @@ function ItemCarts({ item, cartStyle, imgHeight = false }) {
     case 1:
       return (
         <div
-          className={style.cartType1}
           style={{ width: cartStyle.width, height: cartStyle.height }}
+          className={style.cartType1}
         >
           <img
             style={imgHeight ? { height: imgHeight } : null}
