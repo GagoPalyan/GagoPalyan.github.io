@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.73e5af51.css",
-    "main.js": "/static/js/main.d8eb110d.js",
+    "main.css": "/static/css/main.b64b17db.css",
+    "main.js": "/static/js/main.b37e2b2e.js",
     "static/js/787.c84b804a.chunk.js": "/static/js/787.c84b804a.chunk.js",
     "static/media/fauzan-ardhi-rqclLm60c1k-unsplash.jpg": "/static/media/fauzan-ardhi-rqclLm60c1k-unsplash.78b131e85bb4f4dfb129.jpg",
     "static/media/Rectangle 221.png": "/static/media/Rectangle 221.421dc04229ed15747e09.png",
@@ -31,6 +31,7 @@
     "static/media/Flat lay detox fruit drink.png": "/static/media/Flat lay detox fruit drink.57d3e149762c70e5ba10.png",
     "static/media/Rectangle 214.png": "/static/media/Rectangle 214.ff15fa1942fe766f6934.png",
     "static/media/Group 47.png": "/static/media/Group 47.aa6e33a8b0c7e5a21565.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Rectangle 167.png": "/static/media/Rectangle 167.21af72d6b20c5b9a43d0.png",
     "static/media/Rectangle 168.png": "/static/media/Rectangle 168.870727d2c3bcd8cd8d16.png",
     "static/media/unsplash_-FKE4iLtDUo.png": "/static/media/unsplash_-FKE4iLtDUo.aacdda217ed6d3d853ad.png",
@@ -49,12 +50,12 @@
     "static/media/card.png": "/static/media/card.5972112fb4259345fe48.png",
     "static/media/index.cjs": "/static/media/index.671993152dc0f6e0b17a.cjs",
     "index.html": "/index.html",
-    "main.73e5af51.css.map": "/static/css/main.73e5af51.css.map",
-    "main.d8eb110d.js.map": "/static/js/main.d8eb110d.js.map",
+    "main.b64b17db.css.map": "/static/css/main.b64b17db.css.map",
+    "main.b37e2b2e.js.map": "/static/js/main.b37e2b2e.js.map",
     "787.c84b804a.chunk.js.map": "/static/js/787.c84b804a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e5af51.css",
-    "static/js/main.d8eb110d.js"
+    "static/css/main.b64b17db.css",
+    "static/js/main.b37e2b2e.js"
   ]
 }
