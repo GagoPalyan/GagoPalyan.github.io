@@ -6,4 +6,10 @@
   justify-content: center;
   padding: 50px 0;
   background: rgba(203, 204, 190, 0.67);
+}
+
+@media screen and (max-width: 1860px) {
+  .DoYouKnow {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=DoYouKnow.module.css.map */

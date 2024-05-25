@@ -17,4 +17,10 @@
 .content svg {
   margin: 0 15px;
   margin-top: 2px;
+}
+
+@media screen and (max-width: 1860px) {
+  .content {
+    width: 95%;
+  }
 }/*# sourceMappingURL=PageLocation.module.css.map */
