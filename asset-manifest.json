@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b64b17db.css",
-    "main.js": "/static/js/main.b37e2b2e.js",
+    "main.css": "/static/css/main.afd9a2ed.css",
+    "main.js": "/static/js/main.7e60ccda.js",
     "static/js/787.c84b804a.chunk.js": "/static/js/787.c84b804a.chunk.js",
     "static/media/fauzan-ardhi-rqclLm60c1k-unsplash.jpg": "/static/media/fauzan-ardhi-rqclLm60c1k-unsplash.78b131e85bb4f4dfb129.jpg",
     "static/media/Rectangle 221.png": "/static/media/Rectangle 221.421dc04229ed15747e09.png",
@@ -50,12 +50,12 @@
     "static/media/card.png": "/static/media/card.5972112fb4259345fe48.png",
     "static/media/index.cjs": "/static/media/index.671993152dc0f6e0b17a.cjs",
     "index.html": "/index.html",
-    "main.b64b17db.css.map": "/static/css/main.b64b17db.css.map",
-    "main.b37e2b2e.js.map": "/static/js/main.b37e2b2e.js.map",
+    "main.afd9a2ed.css.map": "/static/css/main.afd9a2ed.css.map",
+    "main.7e60ccda.js.map": "/static/js/main.7e60ccda.js.map",
     "787.c84b804a.chunk.js.map": "/static/js/787.c84b804a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64b17db.css",
-    "static/js/main.b37e2b2e.js"
+    "static/css/main.afd9a2ed.css",
+    "static/js/main.7e60ccda.js"
   ]
 }
