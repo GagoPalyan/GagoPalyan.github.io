@@ -61,11 +61,28 @@
 }
 
 @media screen and (max-width: 1880px) {
+  // .content {
+  //   padding-right: 0;
+  //   padding-left: 20px;
+  //   img {
+  //     display: none;
+  //   }
+  // }
   .content {
-    padding-right: 0;
-    padding-left: 20px;
+    width: 100%;
+    padding: 0;
     img {
-      display: none;
+      width: 50%;
+    }
+    .textContent {
+      width: 50%;
+      align-items: center;
+      padding-left: 20px;
+      justify-content: center;
+      p,
+      h1 {
+        width: 90%;
+      }
     }
   }
 }

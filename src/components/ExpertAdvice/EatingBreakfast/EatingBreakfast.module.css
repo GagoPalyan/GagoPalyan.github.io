@@ -63,11 +63,9 @@
   }
   .content img {
     width: 50%;
-    height: 472px;
   }
   .content .textContent {
     width: 50%;
-    height: 280px;
     align-items: center;
     justify-content: center;
   }

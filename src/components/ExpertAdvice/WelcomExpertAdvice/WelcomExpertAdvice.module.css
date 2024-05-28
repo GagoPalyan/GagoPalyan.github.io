@@ -61,10 +61,20 @@
 
 @media screen and (max-width: 1880px) {
   .content {
-    padding-right: 0;
-    padding-left: 20px;
+    width: 100%;
+    padding: 0;
   }
   .content img {
-    display: none;
+    width: 50%;
+  }
+  .content .textContent {
+    width: 50%;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+  }
+  .content .textContent p,
+  .content .textContent h1 {
+    width: 90%;
   }
 }/*# sourceMappingURL=WelcomExpertAdvice.module.css.map */
