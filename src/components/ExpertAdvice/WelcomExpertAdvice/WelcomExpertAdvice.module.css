@@ -57,4 +57,14 @@
   position: absolute;
   top: 8px;
   left: 8px;
+}
+
+@media screen and (max-width: 1880px) {
+  .content {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+  .content img {
+    display: none;
+  }
 }/*# sourceMappingURL=WelcomExpertAdvice.module.css.map */

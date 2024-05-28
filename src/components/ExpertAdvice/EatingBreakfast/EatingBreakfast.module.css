@@ -54,4 +54,25 @@
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+    padding: 0;
+  }
+  .content img {
+    width: 50%;
+    height: 472px;
+  }
+  .content .textContent {
+    width: 50%;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .textContent p,
+  .content .textContent h1 {
+    width: 90%;
+  }
 }/*# sourceMappingURL=EatingBreakfast.module.css.map */

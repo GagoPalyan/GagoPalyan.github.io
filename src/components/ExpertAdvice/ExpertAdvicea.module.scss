@@ -7,3 +7,9 @@
   justify-content: start;
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+  }
+}

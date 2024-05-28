@@ -56,3 +56,24 @@
     }
   }
 }
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+    padding: 0;
+    img {
+      width: 50%;
+      height: 472px;
+    }
+    .textContent {
+      width: 50%;
+      height: 280px;
+      align-items: center;
+      justify-content: center;
+      p,
+      h1 {
+        width: 90%;
+      }
+    }
+  }
+}
