@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.86f131af.css",
+    "main.css": "/static/css/main.654e2ae2.css",
     "main.js": "/static/js/main.7e60ccda.js",
     "static/js/787.c84b804a.chunk.js": "/static/js/787.c84b804a.chunk.js",
     "static/media/fauzan-ardhi-rqclLm60c1k-unsplash.jpg": "/static/media/fauzan-ardhi-rqclLm60c1k-unsplash.78b131e85bb4f4dfb129.jpg",
@@ -50,12 +50,12 @@
     "static/media/card.png": "/static/media/card.5972112fb4259345fe48.png",
     "static/media/index.cjs": "/static/media/index.671993152dc0f6e0b17a.cjs",
     "index.html": "/index.html",
-    "main.86f131af.css.map": "/static/css/main.86f131af.css.map",
+    "main.654e2ae2.css.map": "/static/css/main.654e2ae2.css.map",
     "main.7e60ccda.js.map": "/static/js/main.7e60ccda.js.map",
     "787.c84b804a.chunk.js.map": "/static/js/787.c84b804a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86f131af.css",
+    "static/css/main.654e2ae2.css",
     "static/js/main.7e60ccda.js"
   ]
 }
