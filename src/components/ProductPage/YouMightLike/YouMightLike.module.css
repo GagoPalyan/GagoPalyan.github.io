@@ -11,4 +11,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1880px) {
+  .content .carts {
+    max-width: 1462px;
+    width: 95%;
+  }
 }/*# sourceMappingURL=YouMightLike.module.css.map */

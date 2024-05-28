@@ -38,6 +38,7 @@
   .content .list {
     width: 100%;
     max-width: 1300px;
+    justify-content: space-evenly;
   }
 }
 @media screen and (max-width: 992px) {

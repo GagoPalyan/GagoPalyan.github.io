@@ -137,4 +137,32 @@
 }
 .content .YouCanRead .imgSection {
   width: 1720px;
+}
+
+@media screen and (max-width: 1880px) {
+  .content .textContent {
+    width: 100%;
+    align-items: center;
+  }
+  .content .textContent .background {
+    max-width: 1462px;
+    width: 100%;
+  }
+  .content .textContent .textInfo {
+    width: 950px;
+  }
+  .content .YouCanRead {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background: rgba(203, 204, 190, 0.67);
+  }
+  .content .YouCanRead .imgSection {
+    width: 950px;
+  }
 }/*# sourceMappingURL=BlogArticle.module.css.map */

@@ -102,4 +102,29 @@
   width: 349px;
   background: #5b5d4b;
   color: white;
+}
+
+@media screen and (max-width: 1880px) {
+  .content {
+    max-width: 1490px;
+    width: 95%;
+    height: 519px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content img {
+    width: 50%;
+    height: 519px;
+  }
+  .content .all {
+    width: 45%;
+  }
+  .content .all .Add .addFav {
+    width: 55%;
+  }
+  .content .all .Add .addCart {
+    width: 40%;
+  }
 }/*# sourceMappingURL=TheProduct.module.css.map */
