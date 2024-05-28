@@ -52,6 +52,11 @@
   border: 1.01px solid greenyellow;
 }
 
+@media screen and (max-width: 1880px) {
+  .cart {
+    margin: 15px;
+  }
+}
 @media screen and (max-width: 992px) {
   .cart {
     margin: 10px;

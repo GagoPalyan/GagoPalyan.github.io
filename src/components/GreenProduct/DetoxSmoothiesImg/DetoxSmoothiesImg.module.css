@@ -22,4 +22,26 @@
   font-family: Quattrocento;
   font-size: 20px;
   color: #5d5c1e;
+}
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+    height: auto;
+    background: #cbccbe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .txtDiv {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+  }
+  .content .txtDiv h1 {
+    font-size: 70px;
+  }
+  .content img {
+    width: 50%;
+  }
 }/*# sourceMappingURL=DetoxSmoothiesImg.module.css.map */

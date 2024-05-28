@@ -24,3 +24,25 @@
     }
   }
 }
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+    height: auto;
+    background: #cbccbe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .txtDiv {
+      width: 30%;
+      height: auto;
+      margin-right: 20px;
+      h1 {
+        font-size: 70px;
+      }
+    }
+    img {
+      width: 50%;
+    }
+  }
+}

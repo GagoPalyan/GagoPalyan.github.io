@@ -42,6 +42,13 @@
   }
 }
 
+@media screen and (max-width: 1880px) {
+  .filter {
+    width: 90%;
+    padding: 0 25px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .filter {
     width: 100%;
