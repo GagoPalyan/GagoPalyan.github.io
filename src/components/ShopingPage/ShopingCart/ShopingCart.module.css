@@ -128,4 +128,39 @@
 .content .orderSummary .orderSummaryDiv .buyNow {
   margin-top: 43px;
   background: #5b5d4b;
+}
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+  }
+  .content .cartList {
+    width: 650px;
+  }
+  .content .cartList .category :nth-child(1) {
+    margin-left: 50px;
+  }
+  .content .cartList .category :nth-child(2) {
+    margin-left: 235px;
+  }
+  .content .cartList .category :nth-child(3) {
+    margin-left: 50px;
+  }
+  .content .cartList .category :nth-child(4) {
+    margin-left: 15px;
+  }
+  .content .orderSummary {
+    width: 330px;
+  }
+  .content .orderSummary .orderSummaryDiv {
+    width: 330px;
+    padding: 20px;
+  }
+  .content .orderSummary .orderSummaryDiv h3 {
+    font-size: 11px;
+  }
+  .content .orderSummary .orderSummaryDiv .buyNow,
+  .content .orderSummary .orderSummaryDiv .ApplePay {
+    width: 100%;
+  }
 }/*# sourceMappingURL=ShopingCart.module.css.map */

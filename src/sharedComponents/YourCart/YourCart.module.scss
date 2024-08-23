@@ -92,3 +92,26 @@
     }
   }
 }
+
+@media screen and (max-width: 1880px) {
+  .cart {
+    border-radius: 16px;
+    width: 95%;
+    height: 150px;
+    padding: 15px;
+    img {
+      width: 123px;
+    }
+    .info {
+      width: 455px;
+      .buy {
+        .text {
+          width: 175px;
+        }
+        h2 {
+          width: 150px;
+        }
+      }
+    }
+  }
+}

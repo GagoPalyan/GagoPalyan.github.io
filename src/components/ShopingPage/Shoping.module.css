@@ -27,4 +27,10 @@
   background-color: unset;
   border: 1.686px solid rgb(91, 93, 75);
   border-radius: 40px;
+}
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 992px;
+  }
 }/*# sourceMappingURL=Shoping.module.css.map */

@@ -132,3 +132,40 @@
     }
   }
 }
+
+@media screen and (max-width: 1880px) {
+  .content {
+    width: 100%;
+    .cartList {
+      width: 650px;
+      .category {
+        :nth-child(1) {
+          margin-left: 50px;
+        }
+        :nth-child(2) {
+          margin-left: 235px;
+        }
+        :nth-child(3) {
+          margin-left: 50px;
+        }
+        :nth-child(4) {
+          margin-left: 15px;
+        }
+      }
+    }
+    .orderSummary {
+      width: 330px;
+      .orderSummaryDiv {
+        width: 330px;
+        padding: 20px;
+        h3 {
+          font-size: 11px;
+        }
+        .buyNow,
+        .ApplePay {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

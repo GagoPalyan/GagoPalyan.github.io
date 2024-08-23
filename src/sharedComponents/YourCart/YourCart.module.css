@@ -89,4 +89,25 @@
   outline: none;
   border-bottom: 1px solid #716f23;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1880px) {
+  .cart {
+    border-radius: 16px;
+    width: 95%;
+    height: 150px;
+    padding: 15px;
+  }
+  .cart img {
+    width: 123px;
+  }
+  .cart .info {
+    width: 455px;
+  }
+  .cart .info .buy .text {
+    width: 175px;
+  }
+  .cart .info .buy h2 {
+    width: 150px;
+  }
 }/*# sourceMappingURL=YourCart.module.css.map */
