@@ -20,7 +20,7 @@ export const removeCartReducer = (state, action) => {
   state.cart = state.cart.filter((obj) => obj.id !== action.payload);
 };
 
-export const CleanCartReducer = (state, action) => {
+export const cleanCartReducer = (state, action) => {
   state.cart = action.payload;
 };
 
