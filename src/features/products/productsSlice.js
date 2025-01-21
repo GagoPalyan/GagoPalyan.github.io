@@ -28,7 +28,7 @@ export const productsSlice = createSlice({
     addCart: addCartReducer,
     updateCart: updateCartReducer,
     removeCart: removeCartReducer,
-    cleanCart: CleanCartReducer,
+    cleanCart: cleanCartReducer,
     addFavorite: addFavoriteReducer,
     removeFavorite: removeFavoriteReducer,
   },
