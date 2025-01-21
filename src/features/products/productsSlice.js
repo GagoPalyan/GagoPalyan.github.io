@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import ProductList from "../../utils/ProductList";
 import {
-  CleanCartReducer,
+  cleanCartReducer,
   addCartReducer,
   addFavoriteReducer,
   changeFilterReducer,
